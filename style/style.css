@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -29,4 +31,57 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+.home_content{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    color: #c38a23;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.home_content img{
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 50px;
+}
+.category_list{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.category_list li{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(133, 128, 129, 0.336);
+}
+.category_list li a{
+    text-align: center;
+    text-decoration: none;
+}
+.category_list li a i{
+    color: white;
+    font-size: 50px;
+    margin: auto;
+}
+.category_list li a p{
+    color: white;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
 }
