@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 100%;
+}
+.home{
+    background: url(../video/background1.mp4);
+}
